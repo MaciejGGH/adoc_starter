@@ -35,17 +35,27 @@ diagram naszej famili
 [ditaa, rodzinka, svg]
 ....
 +--------+          +--------+
-|  TATA  |----+-----|  MAMA  |
+|  TATA  +----+-----+  MAMA  |
 +--------+    |     +--------+
               |
      +--------+---------+              
      |                  |
-+--------+          +----------+
++----+---+          +---+------+
 | Synek  |          | Córeczka |
 +--------+          +----------+
 ....
 
-
+[plantuml, rodzinka2, svg]
+....
+@startuml
+Uczeń -> Przewodniczący: legimacja
+note over Przewodniczący: zbiera wszystkie legitymacje
+... Jak zebrane zostaną wszystkie legitymacje ...
+Przewodniczący -> Sekretariat: Przynosi legitymacje \ndo podbicia
+note over Sekretariat: podbija legitymacje
+Sekretariat -> Przewodniczący: oddaje legitymacje
+@enduml
+....
 
 
 
