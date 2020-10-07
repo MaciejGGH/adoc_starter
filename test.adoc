@@ -1,0 +1,43 @@
+= My document title
+
+A normal paragraph.
+
+IMPORTANT: Don't forget...
+
+The default *Asciidoctor* stylesheet automatically styles the first paragraph of the preamble as a lead paragraph.
+
+== Punkty numerowane
+
+. dfdsg
+. drugie
+.. podpunkt
+.. podpunkt
+... podpunkt
+... podpunkt
+.. podpunkt
+. trzecie
+. tratatan
+
+== Punkty bez numeracji:
+
+* punkty
+** punkty
+** punkty
+* _punkty_
+* punkty
+* punkty
+* punkty
+
+== rozdział pierwszy
+Another normal paragraph.
+
+=== podrozdział z tabelką
+
+[cols="5,5,1", options="header"]
+|===
+|Imię       |Nazwisko   |Punkty
+|Piotr      |Iksiński   |5
+|Piotr      |Iksiński   |5
+|Piotr      |Iksiński   |5
+|Piotr      |Iksiński   |5
+|===
