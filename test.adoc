@@ -2,9 +2,9 @@
 
 A normal paragraph.
 
-IMPORTANT: Don't forget...
+IMPORTANT: Don't forget!
 
-The default *Asciidoctor* stylesheet automatically styles the first paragraph of the preamble as a lead paragraph.
+The default *Asciidoctor* stylesheet automatically styles the first paragraph of the _preamble_ as a lead paragraph.
 
 == Punkty numerowane
 
@@ -12,7 +12,7 @@ The default *Asciidoctor* stylesheet automatically styles the first paragraph of
 . drugie
 .. podpunkt
 .. podpunkt
-... podpunkt
+... _podpunkt_
 ... podpunkt
 .. podpunkt
 . trzecie
@@ -24,12 +24,30 @@ The default *Asciidoctor* stylesheet automatically styles the first paragraph of
 ** punkty
 ** punkty
 * _punkty_
-* punkty
+* _punkty_
 * punkty
 * punkty
 
 == rozdział pierwszy
 Another normal paragraph.
+
+diagram naszej famili
+[ditaa, rodzinka, svg]
+....
++--------+          +--------+
+|  TATA  |----+-----|  MAMA  |
++--------+    |     +--------+
+              |
+     +--------+---------+              
+     |                  |
++--------+          +----------+
+| Synek  |          | Córeczka |
++--------+          +----------+
+....
+
+
+
+
 
 === podrozdział z tabelką
 
@@ -37,7 +55,7 @@ Another normal paragraph.
 |===
 |Imię       |Nazwisko   |Punkty
 |Piotr      |Iksiński   |5
-|Piotr      |Iksiński   |5
-|Piotr      |Iksiński   |5
+|Wojtek     |Iksiński   |5
+|Piotr      |Iksiński   |4
 |Piotr      |Iksiński   |5
 |===
