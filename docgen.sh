@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ -z "$2" ] || [ $2 = "html" ]; then
     asciidoctor -r asciidoctor-diagram -a data-uri -a toc -a toclevels=5 -a source-highlighter=rouge $1
 else
