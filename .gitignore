@@ -1,0 +1,6 @@
+*.svg
+*.png
+*.docx
+*.html
+*.pdf
+.asciidoctor/
