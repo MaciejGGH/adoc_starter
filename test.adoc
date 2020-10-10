@@ -1,10 +1,16 @@
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
 = My document title
 
 A normal paragraph.
 
-IMPORTANT: Don't forget!
-
-The default *Asciidoctor* stylesheet automatically styles the first paragraph of the _preamble_ as a lead paragraph.
+IMPORTANT: The default *Asciidoctor* stylesheet automatically styles the first paragraph of the _preamble_ as a lead paragraph.
 
 == Punkty numerowane
 
@@ -30,6 +36,8 @@ The default *Asciidoctor* stylesheet automatically styles the first paragraph of
 
 == rozdział pierwszy
 Another normal paragraph.
+
+NOTE: Diagrams are not rendered by Github (yet!...)
 
 diagram naszej famili
 [ditaa, rodzinka, svg]
