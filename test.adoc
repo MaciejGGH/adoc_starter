@@ -65,7 +65,6 @@ NOTE: Diagrams are not rendered by Github (yet!...)
 [plantuml, rodzinka2, png]
 ....
 @startuml
-@startuml
 autonumber
 You -> "Scrum Master" as SM: Ask for acceptance
 SM -> You: Acknowledgement
