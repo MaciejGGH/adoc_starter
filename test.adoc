@@ -56,7 +56,7 @@ NOTE: Diagrams are not rendered by Github (yet!...)
      +--------+---------+              
      |                  |
  +---+-+          +-----+----+
- | Son |          | Doughter |
+ | Son |          | Daughter |
  +-----+          +----------+
 ....
 
@@ -68,7 +68,7 @@ NOTE: Diagrams are not rendered by Github (yet!...)
 autonumber
 You -> "Scrum Master" as SM: Ask for acceptance
 SM -> You: Acknowledgement
-note over Client: collect all holiday plans
+note over SM: collect all holiday plans
 ... Once all holiday plans are placed in calendar ...
 SM -> You: Approval
 You -> "Line Manager" as LM: Notify
