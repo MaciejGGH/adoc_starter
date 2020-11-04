@@ -1,0 +1,74 @@
+== Sequence diagram
+[plantuml, holiday_request, svg]
+....
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+....
+
+
+
+
+== State diagram
+=== testdot
+
+[plantuml, testdot, svg]
+....
+@startuml
+testdot
+@enduml
+....
+
+[plantuml, dummy, svg]
+....
+@startuml
+
+[*] --> State1
+State1 --> [*]
+State1 : this is a string
+State1 : this is another string
+
+State1 -> State2
+State2 --> [*]
+
+@enduml
+....
+
+[plantuml, error_handling, svg]
+....
+@startuml
+skinparam state {
+    backgroundColor<<shared>> teal
+}
+
+state main as "Main API" {
+main: process exposing general API
+
+	state error as "General error handler" <<shared>> {
+    	state wrapper as "Process wrapper" {
+        	state Process1
+            state Process2
+            state Process3
+            state raise as "Throw Error"
+            Process1 --> raise
+            Process2 --> raise
+            Process3 --> raise
+        }
+    	
+    }
+    state log <<shared>>
+    raise --> error
+    error --> log
+}
+
+error: - Capture exceptions
+error: - Log events
+raise: Raise exception to General error handler
+@enduml
+....
+
+Footer

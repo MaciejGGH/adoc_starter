@@ -1,7 +1,9 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt install default-jre
-sudo apt-get install asciidoctor
-sudo apt-get install pandoc
-sudo gem install asciidoctor-diagram
-sudo gem install asciidoctor-pdf
+apt-get update
+apt install default-jre
+apt-get install asciidoctor
+apt-get install pandoc
+gem install asciidoctor-diagram
+gem install asciidoctor-pdf
+
+apt-get install graphviz
