@@ -1,3 +1,6 @@
+= PlantUML examples
+:data-uri:
+
 == Sequence diagram
 [plantuml, holiday_request, svg]
 ....
