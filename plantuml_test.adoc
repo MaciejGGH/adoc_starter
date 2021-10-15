@@ -154,6 +154,4 @@ kafka_uat_prN --> splunk_nonprod
 @enduml
 ....
 
-
-back to link:adoc_starter/index.html[main Adoc starter] page.
-back to link:index.html[main Adoc starter] page.
+Back to link:index.html[main Adoc starter] page.
