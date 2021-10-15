@@ -23,7 +23,7 @@ jobs:
       
     # Includes the AsciiDoctor GitHub Pages Action to convert adoc files to html and publish to gh-pages branch
     - name: asciidoctor-ghpages
-      uses: MaciejGGH/asciidoctor-ghpages-action@fdae112e699df7eb203d2299a4851805f61f1c55
+      uses: MaciejGGH/asciidoctor-ghpages-action@03e679991bbb06d1a3349e44dce72c0f7b79c455
       with:
         # asciidoctor_params: --attribute=nofooter
         pdf_build: false
