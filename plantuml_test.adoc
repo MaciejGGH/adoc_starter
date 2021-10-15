@@ -73,7 +73,10 @@ raise: Raise exception to General error handler
 
 === Skinparams
 
-----
+Here's sample use of skinparams:
+
+[plantuml, skin_param, svg]
+....
 @startuml
 skinparam state {
   BackgroundColor<<disabled>> lightgrey
@@ -146,4 +149,4 @@ kafka_uat_pr2 --> splunk_nonprod
 kafka_uat_prN --> splunk_nonprod
 
 @enduml
-----
+....
