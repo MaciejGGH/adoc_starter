@@ -107,6 +107,7 @@ testdot
 skinparam state {
     backgroundColor<<shared>> teal
 }
+skinparam Handwritten true
 
 state main as "Main API" {
 main: process exposing general API
