@@ -47,3 +47,9 @@ test.adoc - a sample file to play with.
 ## Docker environment
 
 This folder also contains `Dockerfile` and `docker-compose.yml` with a basic setup and all libraries pre-installed. To run, simply execute `docker-compose run --rm adoc`
+
+## PlantUML 
+
+https://plantuml.com/[PlantUML] can be used in AsciiDOC with ease. Here are some link:plantuml_test.html[examples].
+
+And this is one great https://www.planttext.com/[PlantUML] playground to test!
