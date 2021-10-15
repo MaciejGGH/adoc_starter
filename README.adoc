@@ -1,5 +1,6 @@
 # adoc_starter
 :toc:
+:stem:
 
 ## Assumptions
 The scripts should be run in Windows Subsystem for Linux environment. For more information on how to enable wsl please refer https://docs.microsoft.com/en-us/windows/wsl/install-win10[this page]
@@ -33,6 +34,11 @@ To create a document in PDF format, run:
 
 `./docgen.sh test.adoc pdf`
 
+### Math equations
+
+Use 'stem' to generate Math equations (refer http://asciimath.org/[AsciiMath] for syntax)
+
+stem:[sum_(i=1)^n i^3=((n(n+1))/2)^2]
 
 ## Sample adoc document
 test.adoc - a sample file to play with.
