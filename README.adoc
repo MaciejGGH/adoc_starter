@@ -5,9 +5,9 @@
 :stem:
 :source-highlighter: rouge
 :source-language: bash
+:icons: font
 
-## Assumptions
-The scripts should be run in Windows Subsystem for Linux environment. For more information on how to enable wsl please refer https://docs.microsoft.com/en-us/windows/wsl/install-win10[this page]
+IMPORTANT: The scripts should be run in Windows Subsystem for Linux environment. For more information on how to enable wsl please refer https://docs.microsoft.com/en-us/windows/wsl/install-win10[this page]
 
 ## Setup script
 `setup_adoc.sh` - to install all required components will install:
@@ -97,7 +97,8 @@ And this is one great https://www.planttext.com/[PlantUML] playground to test!
 | :icons: font                  | Enable admonition icons
 | :source-highlighter: rouge    | Use `rouge` for source highlight
 | :source-language: bash        | Set source language
-| :stem:                        | Enable STEM equations
+| :stem:                        | Enable STEM equationsm use http://asciimath.org/[AsciiMath] to test syntax
 | :toc:                         | add Table of Contents
 | :toc-title:                   | set custom title for Table of Contents
 |===
+
