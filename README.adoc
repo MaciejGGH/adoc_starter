@@ -1,4 +1,4 @@
-# adoc_starter
+= adoc_starter
 :author: Maciej Łukasz Grabowski
 :email: maciejg@gmail.com
 :toc:
@@ -14,11 +14,13 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
+== Admonitions
+
 IMPORTANT: The scripts should be run in Windows Subsystem for Linux environment. For more information on how to enable wsl please refer https://docs.microsoft.com/en-us/windows/wsl/install-win10[this page]
 
 [NOTE] 
 ====
-Admonition icons are not generated in GitHub, unless explicitly declared, like
+Admonition icons are not generated in GitHub, unless explicitly declared:
 
     ifdef::env-github[]
     :tip-caption: :bulb:
@@ -27,10 +29,11 @@ Admonition icons are not generated in GitHub, unless explicitly declared, like
     :caution-caption: :fire:
     :warning-caption: :warning:
     endif::[]
-    
+
 ====
 
-## Setup script
+== Setup script
+
 `setup_adoc.sh` - to install all required components will install:
 
 - asciidoctor - used to generate html output
@@ -66,14 +69,14 @@ Admonition icons are not generated in GitHub, unless explicitly declared, like
 ----    
 ====
 
-## Script to convert adoc to various formats
+== Script to convert adoc to various formats
 `docgen.sh` - this will use above mentioned tools to generate great looking documents in html/pdf/docx format.
 
-### Syntax
+=== Syntax
 
 `./docgen.sh <your_file.adoc> <desired_ouput [html/docx/pdf]>`
 
-### Examples
+=== Examples
 
 To create HTML document, run:
 
@@ -87,27 +90,27 @@ To create a document in PDF format, run:
 
 `./docgen.sh test.adoc pdf`
 
-### Math equations
+=== Math equations
 
 Use 'stem' to generate Math equations (refer http://asciimath.org/[AsciiMath] for syntax)
 
 stem:[sum_(i=1)^n i^3=((n(n+1))/2)^2]
 
-## Sample adoc document
+== Sample adoc document
 test.adoc - a sample file to play with.
 
 
-## Docker environment
+== Docker environment
 
 This folder also contains `Dockerfile` and `docker-compose.yml` with a basic setup and all libraries pre-installed. To run, simply execute `docker-compose run --rm adoc`
 
-## PlantUML 
+== PlantUML 
 
 https://plantuml.com/[PlantUML] can be used in AsciiDOC with ease. Here are some link:plantuml_test.html[examples].
 
 And this is one great https://www.planttext.com/[PlantUML] playground to test!
 
-## AsciiDoc attributes
+== AsciiDoc attributes
 
 [%header, cols="1,4"]
 |===
