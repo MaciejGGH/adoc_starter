@@ -1,4 +1,6 @@
 # adoc_starter
+:author: Maciej Łukasz Grabowski
+:email: maciejg@gmail.com
 :toc:
 :stem:
 
@@ -53,3 +55,17 @@ This folder also contains `Dockerfile` and `docker-compose.yml` with a basic set
 https://plantuml.com/[PlantUML] can be used in AsciiDOC with ease. Here are some link:plantuml_test.html[examples].
 
 And this is one great https://www.planttext.com/[PlantUML] playground to test!
+
+## AsciiDoc attributes
+
+[%header, cols="1,4"]
+|===
+| Attribute: value      | Description
+| :author:              | Set author, enable use of `\{firstname\}`, `\{middlename\}`, `\{lastname\}`
+| :email:               | Set author's email
+| :data-uri:            | Embed the images directly into the document
+| :icons: font          | Enable admonition icons
+| :stem:                | Enable STEM equations
+| :toc:                 | add Table of Contents
+| :toc-title:           | set custom title for Table of Contents
+|===
