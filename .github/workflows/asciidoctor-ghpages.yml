@@ -26,7 +26,7 @@ jobs:
       uses: MaciejGGH/asciidoctor-ghpages-action@v2.1.2.1
       with:
         # asciidoctor_params: --attribute=nofooter
-        asciidoctor_params: -r asciidoctor-diagram
+        asciidoctor_params: -r asciidoctor-diagram -a data-uri
         pdf_build: false
         # adoc_file_ext: .ascii # default is .adoc
         # source_dir: docs/ # default is .
