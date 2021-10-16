@@ -6,8 +6,29 @@
 :source-highlighter: rouge
 :source-language: bash
 :icons: font
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
 IMPORTANT: The scripts should be run in Windows Subsystem for Linux environment. For more information on how to enable wsl please refer https://docs.microsoft.com/en-us/windows/wsl/install-win10[this page]
+
+[NOTE] 
+====
+Admonition icons are not generated in GitHub, unless explicitly declared, like
+
+    ifdef::env-github[]
+    :tip-caption: :bulb:
+    :note-caption: :information_source:
+    :important-caption: :heavy_exclamation_mark:
+    :caution-caption: :fire:
+    :warning-caption: :warning:
+    endif::[]
+    
+====
 
 ## Setup script
 `setup_adoc.sh` - to install all required components will install:
