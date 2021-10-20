@@ -121,6 +121,7 @@ And this is one great https://www.planttext.com/[PlantUML] playground to test!
 | :email:                       | Set author\'s email
 | :data-uri:                    | Embed the images directly into the document
 | :icons: font                  | Enable admonition icons
+| :imagesdir: images            | Set path where images are stored
 | :source-highlighter: rouge    | Use `rouge` for source highlight
 | :source-language: bash        | Set source language
 | :stem:                        | Enable STEM equationsm use http://asciimath.org/[AsciiMath] to test syntax
