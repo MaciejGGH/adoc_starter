@@ -41,6 +41,8 @@ Admonition icons are not generated in GitHub, unless explicitly declared:
 - asciidoctor-pdf - used to generate pdf output
 - pandoc - used to generate docx
 
+Run `sudo gem update` to make sure all gems are up to date.
+
 [%collapsible]
 .Full `docgen.sh` script
 ====
