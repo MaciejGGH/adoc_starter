@@ -72,6 +72,7 @@ Run `sudo gem update` to make sure all gems are up to date.
 ====
 
 == Script to convert adoc to various formats
+
 `docgen.sh` - this will use above mentioned tools to generate great looking documents in html/pdf/docx format.
 
 === Syntax
@@ -99,8 +100,8 @@ Use 'stem' to generate Math equations (refer http://asciimath.org/[AsciiMath] fo
 stem:[sum_(i=1)^n i^3=((n(n+1))/2)^2]
 
 == Sample adoc document
-test.adoc - a sample file to play with.
 
+test.adoc - a sample file to play with.
 
 == Docker environment
 
@@ -118,14 +119,20 @@ And this is one great https://www.planttext.com/[PlantUML] playground to test!
 |===
 | Attribute: value              | Description
 | :author:                      | Set author, enable use of `\{firstname\}`, `\{middlename\}`, `\{lastname\}`
-| :email:                       | Set author\'s email
 | :data-uri:                    | Embed the images directly into the document
+| :email:                       | Set author\'s email
+| :experimental: true           | Turn the experimental features on
 | :icons: font                  | Enable admonition icons
 | :imagesdir: images            | Set path where images are stored
+| :sectnums:                    | Add numbers to sections
 | :source-highlighter: rouge    | Use `rouge` for source highlight
 | :source-language: bash        | Set source language
 | :stem:                        | Enable STEM equationsm use http://asciimath.org/[AsciiMath] to test syntax
 | :toc:                         | add Table of Contents
 | :toc-title:                   | set custom title for Table of Contents
+| :toclevels: 3                 | set number of section levels in Table of Contents
 |===
 
+== AsciiDoc Slides
+
+https://marketplace.visualstudio.com/items?itemName=flobilosaurus.vscode-asciidoc-slides[VS Code Marketplace]
